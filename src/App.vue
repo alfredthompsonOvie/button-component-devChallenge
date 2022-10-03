@@ -43,14 +43,19 @@
 		<section class="section icon">
 			<div class="btn__container">
 				<base-button variant="local_grocery_store">
-					<span></span>
+					<span>
+            
+						<font-awesome-icon icon="fa-solid fa-cart-plus" />
+					</span>
 					<span> Default </span>
 				</base-button>
 			</div>
 			<div class="btn__container">
 				<base-button variant="local_grocery_store--alt">
-					<span></span>
 					<span> Default </span>
+          <span>
+						<font-awesome-icon icon="fa-solid fa-cart-plus" />
+					</span>
 				</base-button>
 			</div>
 		</section>
@@ -98,8 +103,20 @@
 	</section>
 
 	<p class="copyright">
-		created by <a href="https://github.com/alfredthompsonOvie" class="myLink" target="_blank"> alfred thompson ovie</a> -
-		<a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY" target="_blank">devChallenges.io</a>
+		created by
+		<a
+			href="https://github.com/alfredthompsonOvie"
+			class="myLink"
+			target="_blank"
+		>
+			alfred thompson ovie</a
+		>
+		-
+		<a
+			href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY"
+			target="_blank"
+			>devChallenges.io</a
+		>
 	</p>
 </template>
 

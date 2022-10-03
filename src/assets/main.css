@@ -1,0 +1,126 @@
+@import "./base.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+#app {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+.title {
+	color: #4f4f4f;
+	text-transform: capitalize;
+	font-family: var(--ff-title);
+}
+.btn__container {
+	margin: 2em 0em;
+}
+.btn__primary,
+.default {
+	color: #3f3f3f;
+	background-color: #e0e0e0;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+.btn__primary:focus,
+.btn__primary:hover,
+.default:focus,
+.default:hover {
+	background-color: #aeaeae;
+  border-color: transparent;
+
+}
+
+.outline {
+	border: 1px solid #3d5afe;
+}
+.outline .text {
+	color: #3d5afe;
+}
+.outline:focus,
+.outline:hover,
+.text:focus,
+.text:hover {
+	background-color: rgba(41, 98, 255, 0.1);
+}
+/* .text:focus,
+.text:hover {
+	background-color: rgba(41, 98, 255, 0.1);
+} */
+/* disable */
+.disableShadow {
+	color: #fff;
+	background-color: #3d5afe;
+}
+/* .disableShadow {
+	color: #fff;
+	background-color: #3d5afe;
+} */
+.disable:disabled {
+	background-color: #e0e0e0;
+	color: #9e9e9e;
+}
+.disable--text:disabled {
+	color: #9e9e9e;
+}
+/* icon */
+.local_grocery_store,
+.local_grocery_store--alt,
+.sm,
+.lg {
+	color: #fff;
+	background-color: #2962ff;
+	box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+/* size */
+.sm {
+	padding: 0.6em 1em;
+}
+.md {
+	color: #fff;
+	background-color: #2962ff;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+	padding: 0.8em 1.5em;
+}
+
+.primary {
+	color: #fff;
+	background-color: #2962ff;
+	box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+.primary:focus,
+.primary:hover {
+	background-color: #0039cb;
+}
+.secondary {
+	color: #fff;
+	background-color: #455a64;
+	box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+.secondary:focus,
+.secondary:hover {
+	background-color: #1c313a;
+}
+.danger {
+	color: #fff;
+	background-color: #d32f2f;
+	box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+.danger:focus,
+.danger:hover {
+	background-color: #9a0007;
+}
+.copyright {
+	color: #a9a9a9;
+	font-family: "Montserrat";
+	font-size: 14px;
+	font-weight: var(--fw);
+	text-align: center;
+}
+.copyright a {
+  color: inherit;
+  text-decoration: none;
+}
+a.myLink {
+  font-weight: 800;
+  text-decoration: underline;
+}

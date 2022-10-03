@@ -1,0 +1,51 @@
+:root {  
+  --ff-title:'Poppins', sans-serif;
+  --ff-btn: 'Noto Sans JP', sans-serif;
+  --fw: 500;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family: var(--ff-btn);
+  font-weight: var(--fw);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 1em 2em;
+  font-weight: 500;
+  transition: all .3s linear;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+button:focus {
+  border-color: transparent;
+}
+img {
+  max-width: 100%;
+}
+.section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 4em; */
+  row-gap: 0em;
+  column-gap: 3em;
+}
+
